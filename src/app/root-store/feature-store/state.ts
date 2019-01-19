@@ -1,5 +1,5 @@
-import {createEntityAdapter, EntityAdapter, EntityState} from '@ngrx/entity';
-import {MyModel} from '../../models';
+import { createEntityAdapter, EntityAdapter, EntityState } from '@ngrx/entity';
+import { MyModel } from '../../models';
 
 export const featureAdapter: EntityAdapter<MyModel> = createEntityAdapter<MyModel>({
   selectId: model => model.id,
