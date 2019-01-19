@@ -1,4 +1,4 @@
-import * as MyFeatureStoreActions from './actions';
+import * as MyFeatureStoreEntityActions from './actions';
 import * as MyFeatureStoreEntitySelectors from './selectors';
 import * as MyFeatureStoreStateEntity from './state';
 
@@ -7,7 +7,7 @@ export {
 } from './feature-store.module';
 
 export {
-  MyFeatureStoreActions,
+  MyFeatureStoreEntityActions,
   MyFeatureStoreEntitySelectors,
   MyFeatureStoreStateEntity
 };
