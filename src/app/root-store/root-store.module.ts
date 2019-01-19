@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FeatureStoreModule } from './feature-store--entity/feature-store.module';
+import { FeatureStoreEntityModule } from './feature-store--entity/feature-store.module';
+import { FeatureStoreStandardModule } from './feature-store--standard/feature-store.module';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    FeatureStoreModule
+    FeatureStoreEntityModule,
+    FeatureStoreStandardModule
   ]
 })
 export class RootStoreModule { }
